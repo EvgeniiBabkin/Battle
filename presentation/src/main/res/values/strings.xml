@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ButtleOfMinds</string>
+    <string name="game_name">Battle of minds</string>
+    <string name="description">Прокачай мозги!</string>
+    <string name="registration">Регистрация</string>
+    <string name="enter">Вход</string>
+    <string name="password">Пароль</string>
+    <string name="login">Логин</string>
+    <string name="exit">Выход</string>
+    <string name="busy_name">Имя занято</string>
+    <string name="other_name">Попробуйте другое имя!</string>
+    <string name="yes">Да</string>
+    <string name="no">нет</string>
+    <string name="exit_text">Вы уверены что хотите выйти?</string>
+    <string name="error">Ошибка</string>
+    <string name="no_network">Нет сети! Попробуйте позже</string>
+    <string name="ok">ok</string>
+    <string name="signin">SignIn</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_statistic">Statistic</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="fastGame">Быстрая игра</string>
+    <string name="tourney">Турнир Месяца</string>
+    <string name="battle">Битва умнейших</string>
+    <string name="search_hint">Company name</string>
+    <string name="edit">edit</string>
+    <string name="microphone">microphone</string>
+    <string name="remove">remove</string>
+    <string name="sort_ab">sort</string>
+    <string name="following_hint">following</string>
+    <string name="followers_hint">followers</string>
+
+    <string name="score_s">Score: %s</string>
+    <string name="login_s">Login: %s</string>
+
+    <string name="fa_map_marker">\uf041</string>
+    <string name="fa_heart_o">\uf08a</string>
+    <string name="fa_retweet">\uf079</string>
+    <string name="settings">settings</string>
+    <string name="current_game">current game</string>
+</resources>
