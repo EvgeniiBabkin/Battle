@@ -12,18 +12,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.battleofminds.view.activity.BaseActivity"></activity>
-        <activity android:name="com.example.battleofminds.view.activity.SignUp" />
-        <activity android:name="com.example.battleofminds.view.activity.SignIn" />
-        <activity android:name="com.example.battleofminds.view.activity.CurrentGame"/>
-        <activity android:name="com.example.battleofminds.view.activity.SplashActivity">
+        <activity android:name=".view.activity.AuthActivity"></activity>
+        <activity android:name=".view.activity.BaseActivity" />
+        <activity android:name=".view.activity.SignUp" />
+        <activity android:name=".view.activity.SignIn" />
+        <activity android:name=".view.activity.CurrentGame" />
+        <activity android:name=".view.activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.battleofminds.view.activity.MainActivity" />
+        <activity android:name=".view.activity.MainActivity" />
     </application>
 
 </manifest>

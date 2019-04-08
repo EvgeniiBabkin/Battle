@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 
 import javax.inject.Singleton;
 
+import io.reactivex.Flowable;
 import ua.naiksoftware.stomp.Stomp;
 import ua.naiksoftware.stomp.StompClient;
 
@@ -21,6 +22,11 @@ public class WebSocketApi {
     private final StompClient client = Stomp.over(Stomp.ConnectionProvider.OKHTTP, "ws://10.0.2.2:8080/websocket");
     private final Gson gson = new Gson();
 
+
+    public Flowable<Response> send(final Request request){
+
+        return null;
+    }
 
 
 

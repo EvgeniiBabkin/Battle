@@ -31,4 +31,12 @@ public class Request {
     public String toString(@NonNull final Gson gson) {
         return gson.toJson(this);
     }
+
+    public String getMethod() {
+        return method;
+    }
+
+    public String getReceiveAt() {
+        return receiveAt;
+    }
 }
